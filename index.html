@@ -1,71 +1,104 @@
-<style>
-  body {
-    margin: 0;
-    font-family: Georgia, serif;
-    color: #f5f5f5;
-    background: #0b0b0b;
-    overflow-x: hidden;
-  }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Between Departures</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  header {
-    height: 100vh;
-    background:
-      linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)),
-      url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80');
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 20px;
-    animation: moveBg 30s linear infinite;
-  }
+  <style>
+    body {
+      margin: 0;
+      font-family: Georgia, serif;
+      background-color: #0b0b0b;
+      color: #eaeaea;
+    }
 
-  @keyframes moveBg {
-    0% { background-position: center top; }
-    50% { background-position: center center; }
-    100% { background-position: center top; }
-  }
+    header {
+      height: 100vh;
+      background:
+        linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)),
+        url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80');
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 20px;
+    }
 
-  header h1 {
-    font-size: 3rem;
-    letter-spacing: 3px;
-    margin-bottom: 10px;
-    text-transform: uppercase;
-    color: #fffbf5;
-  }
+    h1 {
+      font-size: 3rem;
+      letter-spacing: 3px;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+    }
 
-  header p {
-    font-size: 1.2rem;
-    max-width: 600px;
-    color: #ffeedd;
-  }
+    p.subtitle {
+      font-size: 1.2rem;
+      max-width: 600px;
+      color: #ffeedd;
+    }
 
-  section {
-    max-width: 900px;
-    margin: auto;
-    padding: 70px 20px;
-  }
+    section {
+      max-width: 800px;
+      margin: auto;
+      padding: 70px 20px;
+    }
 
-  .card {
-    background: #141414;
-    padding: 35px;
-    margin-bottom: 40px;
-    border-left: 3px solid #ffa500;
-  }
+    .block {
+      background: #141414;
+      padding: 35px;
+      margin-bottom: 40px;
+      border-left: 3px solid #ffa500;
+    }
 
-  footer {
-    text-align: center;
-    padding: 40px;
-    font-size: 0.9rem;
-    color: #9ca3af;
-  }
-</style>
+    footer {
+      text-align: center;
+      padding: 40px;
+      font-size: 0.9rem;
+      color: #9ca3af;
+    }
+  </style>
+</head>
 
-<header>
-  <div>
-    <h1>Between Departures</h1>
-    <p>Travel notes from the spaces in between</p>
-  </div>
-</header>
+<body>
+
+  <header>
+    <div>
+      <h1>Between Departures</h1>
+      <p class="subtitle">Travel notes from the spaces in between</p>
+    </div>
+  </header>
+
+  <section>
+    <div class="block">
+      <h2>About</h2>
+      <p>
+        Between Departures is a cinematic travel journal
+        focused on quiet moments, transitions, and stillness.
+      </p>
+    </div>
+
+    <div class="block">
+      <h2>Journal</h2>
+      <p>
+        Stories written in motion — airports, trains,
+        empty streets, early mornings.
+      </p>
+    </div>
+
+    <div class="block">
+      <h2>Contact</h2>
+      <p>
+        Coming soon.
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    © 2026 Between Departures
+  </footer>
+
+</body>
+</html>
