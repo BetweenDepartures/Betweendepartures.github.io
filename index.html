@@ -1,104 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Between Departures</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <title>Between Departures</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <style>
-    body {
-      margin: 0;
-      font-family: Georgia, serif;
-      background-color: #0b0b0b;
-      color: #eaeaea;
-    }
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background: #f9fafb;
+      color: #1f2937;
+      line-height: 1.6;
+    }
 
-    .hero {
-      height: 100vh;
-      background: linear-gradient(
-          rgba(0,0,0,0.6),
-          rgba(0,0,0,0.6)
-        ),
-        url("https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80");
-      background-size: cover;
-      background-position: center;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      padding: 20px;
-    }
+    header {
+      height: 100vh;
+      background: url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee');
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: white;
+      padding: 20px;
+    }
 
-    h1 {
-      font-size: 3rem;
-      letter-spacing: 3px;
-      margin-bottom: 10px;
-      text-transform: uppercase;
-    }
+    header h1 {
+      font-size: 3rem;
+      letter-spacing: 2px;
+      margin-bottom: 10px;
+    }
 
-    p.subtitle {
-      font-size: 1.2rem;
-      color: #cfcfcf;
-    }
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
 
-    .content {
-      max-width: 800px;
-      margin: auto;
-      padding: 80px 20px;
-    }
+    section {
+      max-width: 900px;
+      margin: auto;
+      padding: 70px 20px;
+    }
 
-    .block {
-      margin-bottom: 60px;
-      border-left: 2px solid #6b7280;
-      padding-left: 25px;
-    }
+    .card {
+      background: white;
+      padding: 35px;
+      margin-bottom: 40px;
+      border-radius: 14px;
+      box-shadow: 0 15px 30px rgba(0,0,0,0.08);
+    }
 
-    footer {
-      text-align: center;
-      padding: 40px;
-      color: #9ca3af;
-      font-size: 0.9rem;
-    }
-  </style>
+    footer {
+      text-align: center;
+      padding: 40px;
+      font-size: 0.9rem;
+      color: #6b7280;
+    }
+  </style>
 </head>
 
 <body>
 
-  <div class="hero">
-    <div>
-      <h1>Between Departures</h1>
-      <p class="subtitle">Travel notes from the spaces in between</p>
-    </div>
-  </div>
+  <header>
+    <div>
+      <h1>Between Departures</h1>
+      <p>Travel notes from the spaces in between</p>
+    </div>
+  </header>
 
-  <div class="content">
-    <div class="block">
-      <h2>About</h2>
-      <p>
-        Between Departures is a cinematic travel journal
-        focused on quiet moments, transitions, and stillness.
-      </p>
-    </div>
+  <section>
+    <div class="card">
+      <h2>About</h2>
+      <p>
+        Between Departures is a quiet travel journal — moments captured
+        while leaving, arriving, and everything in between.
+      </p>
+    </div>
 
-    <div class="block">
-      <h2>Journal</h2>
-      <p>
-        Stories written in motion — airports, trains,
-        empty streets, early mornings.
-      </p>
-    </div>
+    <div class="card">
+      <h2>Journal</h2>
+      <p>
+        Stories from roads taken slowly, places felt deeply,
+        and moments that didn’t need rushing.
+      </p>
+    </div>
 
-    <div class="block">
-      <h2>Contact</h2>
-      <p>
-        Coming soon.
-      </p>
-    </div>
-  </div>
+    <div class="card">
+      <h2>Contact</h2>
+      <p>
+        Find me on Instagram or reach out by email.
+      </p>
+    </div>
+  </section>
 
-  <footer>
-    © 2026 Between Departures
-  </footer>
+  <footer>
+    © 2026 Between Departures
+  </footer>
 
 </body>
 </html>
