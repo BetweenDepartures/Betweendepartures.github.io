@@ -60,7 +60,14 @@
       color: #9ca3af;
     }
   </style>
-</head>
+  @keyframes breathe {
+  0% { transform: translateY(0); opacity: 0.95; }
+  100% { transform: translateY(-8px); opacity: 1; }
+}
+
+header h1 {
+  animation: breathe 6s ease-in-out infinite alternate;
+}</head>
 
 <body>
 
